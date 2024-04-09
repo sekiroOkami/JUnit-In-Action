@@ -1,20 +1,23 @@
 import java.security.cert.CertPathBuilder;
 import java.util.Date;
+import java.util.Objects;
 
 public class Customer {
     private Gender gender;
     private String firstName;
     private String lastName;
+
     private String middleName;
     private Date becomeCustomer;
-    public static class Builder {
 
+    public static class Builder {
         private Gender gender;
         private String lastName;
         private String firstName;
 
         private String middleName;
         private Date becomeCustomer;
+
         public Builder(Gender gender, String firstName, String lastName) {
             this.gender = gender;
             this.firstName = firstName;
@@ -26,6 +29,7 @@ public class Customer {
             return this;
         }
 
+
         public Builder withBecomeCustomer(Date becomeCustomer) {
             this.becomeCustomer = becomeCustomer;
             return this;
@@ -36,7 +40,7 @@ public class Customer {
         }
     }
 
-    public Customer(Builder builder) {
+    private Customer(Builder builder) {
         this.gender = builder.gender;
         this.firstName = builder.firstName;
         this.lastName = builder.lastName;
@@ -62,5 +66,23 @@ public class Customer {
 
     public Date getBecomeCustomer() {
         return becomeCustomer;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Customer customer = (Customer) o;
+        return gender == customer.gender &&
+                Objects.equals(firstName, customer.firstName) &&
+                Objects.equals(lastName, customer.lastName) &&
+                Objects.equals(middleName, customer.middleName) &&
+                Objects.equals(becomeCustomer, customer.becomeCustomer);
+    }
+
+    @Override
+    public int hashCode() {
+
+        return Objects.hash(gender, firstName, lastName, middleName, becomeCustomer);
     }
 }
