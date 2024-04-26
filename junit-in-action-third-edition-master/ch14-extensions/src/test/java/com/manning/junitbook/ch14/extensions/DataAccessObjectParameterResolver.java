@@ -39,7 +39,7 @@ public class DataAccessObjectParameterResolver implements ParameterResolver {
 
     @Override
     public Object resolveParameter(ParameterContext parameterContext, ExtensionContext extensionContext) throws ParameterResolutionException {
-        return new PassengerDaoImpl(ConnectionManager.getConnection());
+        return new PassengerDaoImpl(ConnectionManager.openConnection());
     }
 
 }

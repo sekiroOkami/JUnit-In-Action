@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c98248f7-df03-488f-9f0e-49ec79a873d7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../H2persistent/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../H2persistent/src/main/java/com/example/Passenger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../H2persistent/src/main/java/com/example/jdbc/ConnectionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../H2persistent/src/main/java/com/example/jdbc/JdbcDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../H2persistent/src/main/java/com/example/jdbc/PassengerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../H2persistent/src/main/java/com/example/jdbc/PassengerDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../H2persistent/src/main/java/com/example/jdbc/PassengerExistsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../H2persistent/src/main/java/com/example/jdbc/PassengerExitsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../H2persistent/src/main/java/com/example/jdbc/TablesManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../H2persistent/src/test/java/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../H2persistent/src/test/java/com/example/PassengerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../H2persistent/src/test/java/com/example/extensions/DataAccessObjectParameterResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../H2persistent/src/test/java/com/example/extensions/DatabaseOperationsExtension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../H2persistent/src/test/java/com/example/extensions/ExecutionContextExtension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../H2persistent/src/test/java/com/example/extensions/LogArithmeticExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../H2persistent/src/test/java/com/example/extensions/LogPassengerExistsExceptionExtension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../H2persistent/src/test/java/com/example/extensions/paramerterresolver/TestInfoDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../H2persistent/src/test/resources/context.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../chapter15/HtmlUnit/src/main/java/com/example/ManagedWebClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../chapter15/seleniumDemo/src/test/java/com/example/ChromeSeleniumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../chapter15/seleniumDemo/src/test/java/com/example/FireFoxSeleniumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../chapter15/seleniumDemo/src/test/java/com/example/GoogleSearchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../chapter15/seleniumDemo/src/test/java/com/example/WikipediaAccessTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../extension/src/main/java/com/chapter14/Passenger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../extension/src/main/java/com/chapter14/PassengerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../extension/src/main/java/com/chapter14/PassengerExistsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../extension/src/main/java/com/chapter14/jdbc/ConnectionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../extension/src/main/java/com/chapter14/jdbc/DemoJDBC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../extension/src/main/java/com/chapter14/jdbc/TablesManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../extension/src/test/java/com/chapter14/DatabaseOperationsExtension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../extension/src/test/java/com/chapter14/ExecutionContextExtension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../extension/src/test/java/com/chapter14/PassengerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../extension/src/test/resources/context.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h2demo/src/main/java/ConnectionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../h2demo/src/main/java/Demoh2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../junit-in-action-third-edition-master/ch14-extensions/src/test/java/com/manning/junitbook/ch14/extensions/DataAccessObjectParameterResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../junit-in-action-third-edition-master/ch14-extensions/src/test/java/com/manning/junitbook/ch14/extensions/DataAccessObjectParameterResolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../extension/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../extension/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../extension/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../extension/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2fUr15qglNv7AcUOV2yVSlN8JEr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "E:/Java/TDD/Junit/part4/chapter16_TestingSpringApp/spring-boot/spring-boot"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c98248f7-df03-488f-9f0e-49ec79a873d7" name="Changes" comment="" />
+      <created>1713866280790</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713866280790</updated>
+    </task>
+    <servers />
+  </component>
+</project>
