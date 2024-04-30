@@ -1,6 +1,6 @@
 package com.manning.junitbook.spring.model;
 
-import com.manning.junitbook.spring.model.beans.FlightBuilder;
+import com.manning.junitbook.spring.beans.FlightBuilder;
 import com.manning.junitbook.spring.registration.PassengerRegistrationEvent;
 import com.manning.junitbook.spring.registration.RegistrationManager;
 import org.junit.jupiter.api.Test;
@@ -11,9 +11,9 @@ import org.springframework.context.annotation.Import;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-@SpringBootTest()
+@SpringBootTest
 @Import(FlightBuilder.class)
-class FlightTest {
+public class FlightTest {
     @Autowired
     private Flight flight;
 

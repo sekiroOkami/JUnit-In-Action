@@ -1,4 +1,4 @@
-package com.manning.junitbook.spring.model.beans;
+package com.manning.junitbook.spring.beans;
 
 import com.manning.junitbook.spring.model.Country;
 import com.manning.junitbook.spring.model.Flight;
@@ -25,7 +25,7 @@ public class FlightBuilder {
     @Bean
     Flight buildFlightFromCsv() throws IOException {
         Flight flight = new Flight("AA1234", 20);
-        try (var reader = new BufferedReader(new FileReader("src\\test\\resources\\flights_information.csv"))) {
+        try (var reader = new BufferedReader(new FileReader(".\\src\\test\\resources\\flights_information.csv"))) {
             String line = null;
             do {
                 line = reader.readLine();
