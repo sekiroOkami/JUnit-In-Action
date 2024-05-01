@@ -1,9 +1,25 @@
+package com.manning.junitbook.spring.model;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.Id;
+import jakarta.persistence.ManyToOne;
+
 import java.util.Objects;
 
+@Entity
 public class Passenger {
+    @Id
+    @GeneratedValue
+    private Long id;
     private String name;
+
+    @ManyToOne
     private Country country;
     private boolean isRegistered;
+
+    public Passenger() {
+    }
 
     public Passenger(String name) {
         this.name = name;
