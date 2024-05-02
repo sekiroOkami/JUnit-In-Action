@@ -5,7 +5,7 @@ import com.manning.junitbook.springboot.model.Passenger;
 import org.springframework.boot.test.context.TestConfiguration;
 import org.springframework.context.annotation.Bean;
 
-@TestConfiguration // used to define additional beans or cutomizations for the test
+@TestConfiguration // used to define additional beans or customizations for the test
 public class TestBeans {
 
     // create and configure a Passenger bean that will be injected into the tests
